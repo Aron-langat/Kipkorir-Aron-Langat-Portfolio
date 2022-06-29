@@ -347,11 +347,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var _this4 = this;
 	
 	      if (this.pause.status === true) {
-<<<<<<< HEAD
-	        this.setPauseStatus(curString, curStrPos, true);
-=======
 	        this.setPauseStatus(curString, curStrPos, false);
->>>>>>> master
 	        return;
 	      }
 	      if (this.fadeOut) return this.initFadeOut();
@@ -555,10 +551,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (this.cursor) return;
 	      this.cursor = document.createElement('span');
 	      this.cursor.className = 'typed-cursor';
-<<<<<<< HEAD
-=======
 	      this.cursor.setAttribute('aria-hidden', true);
->>>>>>> master
 	      this.cursor.innerHTML = this.cursorChar;
 	      this.el.parentNode && this.el.parentNode.insertBefore(this.cursor, this.el.nextSibling);
 	    }
