@@ -940,7 +940,6 @@ section {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
 }
 
 /*--------------------------------------------------------------
@@ -1118,7 +1117,6 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
-=======
 #Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
@@ -1188,4 +1186,4 @@ footer .credits a {
     padding-right: 20px 15px;
   }
 }
->>>>>>> master
+
