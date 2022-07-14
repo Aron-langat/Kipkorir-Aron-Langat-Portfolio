@@ -127,8 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header {
     width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
+    background: rgb(0, 0, 0);
+    border-right: 1px solid #000000;
     left: -300px;
   }
 }
